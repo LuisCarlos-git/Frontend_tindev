@@ -1,0 +1,62 @@
+.container-main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.container-main ul {
+    list-style: none;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.container-main ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-main ul li img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.container-main ul li footer{
+    flex: 1;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+}
+.container-main ul li footer strong {
+    font-size: 16px;
+    color: #333;
+}
+.container-main ul li footer p {
+    font-size: 16px;
+    color: #999;
+}
+.container-main ul li .button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.container-main ul li .button button {
+    height: 35px;
+    border: 0;
+    box-shadow: 0 2px 2px 0 #999999;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #fff;
+    margin-top: 10px;
+    
+}
+
+.container-main ul li .button button:hover img {
+    transform: translateY(-3px);
+    transition: all 0.3s;
+    
+}
+
